@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { NAV_LINKS } from "@/constants";
-import Button from "./Button";
+import { Button } from ".";
 
 const Navbar = () => {
   return (

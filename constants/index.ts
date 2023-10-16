@@ -69,18 +69,42 @@ export const FOOTER_LINKS = [
 export const FOOTER_CONTACT_INFO = {
   title: "Contact Us",
   links: [
-    { label: "Admin Officer", value: "123-456-7890" },
-    { label: "Email Officer", value: "hilink@akinthil.com" },
+    { label: "Admin Officer", value: "123-456-7890", url: "tel:0123456789" },
+    {
+      label: "Email Officer",
+      value: "hilink@akinthil.com",
+      url: "mailto:hilink@akinthil.com",
+    },
   ],
 };
 
 export const SOCIALS = {
   title: "Social",
   links: [
-    "/facebook.svg",
-    "/instagram.svg",
-    "/twitter.svg",
-    "/youtube.svg",
-    "/wordpress.svg",
+    {
+      label: "facebook",
+      icon: "facebook.svg",
+      url: "https://facebook.com",
+    },
+    {
+      label: "instagram",
+      icon: "instagram.svg",
+      url: "https://instagram.com",
+    },
+    {
+      label: "twitter",
+      icon: "twitter.svg",
+      url: "https://twitter.com",
+    },
+    {
+      label: "youtube",
+      icon: "youtube.svg",
+      url: "https://youtube.com",
+    },
+    {
+      label: "wordpress",
+      icon: "wordpress.svg",
+      url: "https://wordpress.com",
+    },
   ],
 };

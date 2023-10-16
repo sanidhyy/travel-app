@@ -1,10 +1,10 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
-  { href: "/", key: "how_hilink_work", label: "How Hilink Work?" },
-  { href: "/", key: "services", label: "Services" },
-  { href: "/", key: "pricing ", label: "Pricing " },
-  { href: "/", key: "contact_us", label: "Contact Us" },
+  { href: "#services", key: "services", label: "Services" },
+  { href: "#work", key: "how_hilink_work", label: "How Hilink Work?" },
+  { href: "#features", key: "features", label: "Features " },
+  { href: "#download", key: "get_the_app", label: "Download" },
 ];
 
 // CAMP SECTION
@@ -107,4 +107,18 @@ export const SOCIALS = {
       url: "https://wordpress.com",
     },
   ],
+};
+
+// GITHUB SOURCE CODE
+export const SOURCE_CODE = {
+  icon: "/github.svg",
+  title: "Github",
+  url: "https://github.com/sanidhyy/travel-app",
+};
+
+// SITE INFO
+export const SITE_INFO = {
+  name: "Hilink",
+  logo: "/hilink-logo.svg",
+  description: "Travel UI/UX App for Camping",
 };

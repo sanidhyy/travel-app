@@ -25,7 +25,10 @@ const FeatureItem = ({ title, icon, variant, description }: FeatureItem) => {
 
 const Features = () => {
   return (
-    <section className="flexCenter flex-col overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24">
+    <section
+      className="flexCenter flex-col overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24"
+      id="features"
+    >
       <div className="max-container padding-container relative w-full flex justify-end">
         {/* left side */}
         <div className="flex flex-1 lg:min-h-[900px]">

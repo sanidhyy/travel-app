@@ -1,4 +1,9 @@
-import { FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS } from "@/constants";
+import {
+  FOOTER_CONTACT_INFO,
+  FOOTER_LINKS,
+  SITE_INFO,
+  SOCIALS,
+} from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 import { ReactNode } from "react";
@@ -22,8 +27,9 @@ const Footer = () => {
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <Link href="/" className="mb-10">
             <Image
-              src="hilink-logo.svg"
-              alt="hilink logo"
+              src={SITE_INFO.logo}
+              alt={SITE_INFO.name}
+              title={SITE_INFO.name}
               width={74}
               height={29}
             />

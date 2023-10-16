@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { NAV_LINKS } from "@/constants";
+import { NAV_LINKS, SITE_INFO, SOURCE_CODE } from "@/constants";
 import { Button } from ".";
 
 const Navbar = () => {
@@ -9,8 +9,9 @@ const Navbar = () => {
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
       <Link href="/">
         <Image
-          src="/hilink-logo.svg"
-          alt="hilink logo"
+          src={SITE_INFO.logo}
+          alt={SITE_INFO.name}
+          title={SITE_INFO.name}
           width={74}
           height={29}
         />
@@ -20,7 +21,7 @@ const Navbar = () => {
           <Link
             href={link.href}
             key={link.key}
-            className="regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold"
+            className="regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold active:text-green-50"
           >
             {link.label}
           </Link>
@@ -28,12 +29,14 @@ const Navbar = () => {
       </ul>
 
       <div className="lg:flexCenter hidden">
-        <Button
-          type="button"
-          title="Login"
-          icon="/user.svg"
-          variant="btn_dark_green"
-        />
+        <Link href={SOURCE_CODE.url} target="_blank" rel="noreferrer noopener">
+          <Button
+            type="button"
+            title={SOURCE_CODE.title}
+            icon={SOURCE_CODE.icon}
+            variant="btn_dark_green"
+          />
+        </Link>
       </div>
 
       <Image

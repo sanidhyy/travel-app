@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 
-import "./globals.css";
-import Navbar from "@/components/Navbar";
+import { SITE_INFO } from "@/constants";
 import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Travel",
-  description: "Travel UI/UX App for Camping",
+  title: SITE_INFO.name,
+  description: SITE_INFO.description,
   authors: [
     {
       name: "Sanidhya Kumar Verma",

@@ -7,11 +7,13 @@ import { useState } from "react";
 import { NAV_LINKS, SITE_INFO, SOURCE_CODE } from "@/constants";
 import { Button } from ".";
 
+// navbar
 const Navbar = () => {
   // is nav menu (mobile) open
   const [isMenu, setIsMenu] = useState(false);
   return (
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
+      {/* brand logo */}
       <Link href="/">
         <Image
           src={SITE_INFO.logo}
@@ -21,6 +23,8 @@ const Navbar = () => {
           height={29}
         />
       </Link>
+
+      {/* nav links */}
       <ul className="hidden h-full gap-12 lg:flex">
         {NAV_LINKS.map((link) => (
           <Link
@@ -33,6 +37,7 @@ const Navbar = () => {
         ))}
       </ul>
 
+      {/* source code btn */}
       <div className="lg:flexCenter hidden">
         <Link href={SOURCE_CODE.url} target="_blank" rel="noreferrer noopener">
           <Button
@@ -44,6 +49,7 @@ const Navbar = () => {
         </Link>
       </div>
 
+      {/* hamburger (mobile) menu */}
       <Image
         src="/menu.svg"
         alt="menu"
@@ -99,7 +105,7 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          {/* source code */}
+          {/* source code btn */}
           <div className="mt-auto pt-6">
             <Link
               href={SOURCE_CODE.url}

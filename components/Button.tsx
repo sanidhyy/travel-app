@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+// button props
 type ButtonProps = {
   type: "button" | "submit";
   title: string;
@@ -13,7 +14,9 @@ type ButtonProps = {
   full?: boolean;
 };
 
+// button
 const Button = ({ type, title, icon, variant, full }: ButtonProps) => {
+  // button id
   const id = title.toLowerCase().replaceAll(/\W+/g, "-");
 
   return (
@@ -25,7 +28,9 @@ const Button = ({ type, title, icon, variant, full }: ButtonProps) => {
       title={title}
       id={id}
     >
+      {/* button icon */}
       {icon && <Image src={icon} alt={title} width={24} height={24} />}
+      {/* button text */}
       <label className="bold-16 whitespace-nowrap cursor-pointer" htmlFor={id}>
         {title}
       </label>

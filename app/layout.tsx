@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import "./globals.css";
 
+// site metadata
 export const metadata: Metadata = {
   title: SITE_INFO.name,
   description: SITE_INFO.description,
@@ -32,6 +33,7 @@ export const metadata: Metadata = {
   manifest: "/manifest.json",
 };
 
+// layout
 export default function RootLayout({
   children,
 }: {
@@ -40,8 +42,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        {/* navbar */}
         <Navbar />
+        {/* main */}
         <main className="relative overflow-hidden">{children}</main>
+        {/* footer */}
         <Footer />
       </body>
     </html>

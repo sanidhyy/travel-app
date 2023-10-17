@@ -1,21 +1,31 @@
 import { FEATURES } from "@/constants";
 import Image from "next/image";
 
-type FeatureItem = {
+// feature item props
+type FeatureItemProps = {
   title: string;
   icon: string;
   variant: string;
   description: string;
 };
 
-const FeatureItem = ({ title, icon, variant, description }: FeatureItem) => {
+// feature item
+const FeatureItem = ({
+  title,
+  icon,
+  variant,
+  description,
+}: FeatureItemProps) => {
   return (
     <li className="flex w-full flex-1 flex-col items-start">
+      {/* top icon */}
       <div className={`rounded-full p-4 lg:p-7 bg-${variant}-50`}>
-        <Image src={icon} alt="map" width={28} height={28} />
+        <Image src={icon} alt={`${title}-icon`} width={28} height={28} />
       </div>
 
+      {/* title */}
       <h2 className="bold-20 lg:bold-32 mt-5 capitalize">{title}</h2>
+      {/* description */}
       <p className="regular-16 mt-5 bg-white/80 text-gray-30 lg:mt-[30px] lg:bg-none">
         {description}
       </p>
@@ -23,6 +33,7 @@ const FeatureItem = ({ title, icon, variant, description }: FeatureItem) => {
   );
 };
 
+// features
 const Features = () => {
   return (
     <section
@@ -55,6 +66,7 @@ const Features = () => {
             <h2 className="bold-40 lg:bold-64">Our Features</h2>
           </div>
 
+          {/* feature list */}
           <ul className="mt-10 grid gap-10 md:grid-cols-2 lg:mt-20 lg:gap-20">
             {FEATURES.map((feature) => (
               <FeatureItem

@@ -1,3 +1,6 @@
+// Export new constants here to use it anywhere else
+// Don't remove anything from here
+
 // NAVIGATION
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
@@ -66,6 +69,7 @@ export const FOOTER_LINKS = [
   },
 ];
 
+// FOOTER CONTACT INFO
 export const FOOTER_CONTACT_INFO = {
   title: "Contact Us",
   links: [
@@ -78,6 +82,7 @@ export const FOOTER_CONTACT_INFO = {
   ],
 };
 
+// SOCIALS
 export const SOCIALS = {
   title: "Social",
   links: [

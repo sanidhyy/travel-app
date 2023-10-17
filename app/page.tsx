@@ -1,6 +1,7 @@
 import { Camp, Features, GetApp, Guide, Hero } from "@/components";
 
-export default function Home() {
+// main
+export default function Main() {
   return (
     <>
       <Hero />

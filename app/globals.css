@@ -1,19 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
+/* apply tailwindcss classes */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* all */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* body */
 body {
   font-family: Inter;
 }
 
+/* custom utility classes */
 @layer utilities {
   .btn_white {
     @apply border-white bg-white px-8 py-3 text-green-50;

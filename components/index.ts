@@ -1,3 +1,6 @@
+// Export new components here to use it anywhere else
+// Don't remove anything from here
+
 import Button from "./Button";
 import Camp from "./Camp";
 import Features from "./Features";

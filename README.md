@@ -34,7 +34,7 @@
 
 ## :wrench: Stats
 
-![Stats for this App](/.github/images/stats.svg "Stats for this App")
+[![Stats for this App](/.github/images/stats.svg "Stats for this App")](https://pagespeed-insights-svg.glitch.me/?url=https://apptravel.vercel.app/ "Stats for this App")
 
 ## :raised_hands: Contribute
 
@@ -50,10 +50,6 @@ You might encounter some bugs while using this app. You are more than welcome to
 [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FTechnicalShubam)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fsanidhyy%2Fmedical-chat-app "Tweet")
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCNAz_hUVBG2ZUN8TVm0bmYw "Subscribe my Channel")
 
-## :star: Give A Star
-
-You can also give this repository a star to show more people and they can use this repository.
-
 ## :books: Learn More
 
 To learn more about Next.js, take a look at the following resources:
@@ -68,3 +64,17 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## :star: Give A Star
+
+You can also give this repository a star to show more people and they can use this repository.
+
+## :star2: Star History
+
+<a href="https://star-history.com/#sanidhyy/travel-app&Timeline">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=sanidhyy/travel-app&type=Timeline&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=sanidhyy/travel-app&type=Timeline" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=sanidhyy/travel-app&type=Timeline" />
+  </picture>
+</a>

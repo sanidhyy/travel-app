@@ -99,7 +99,7 @@ export const SOCIALS = {
     {
       label: "twitter",
       icon: "twitter.svg",
-      url: "https://twitter.com",
+      url: "https://x.com/_sanidhyy",
     },
     {
       label: "youtube",

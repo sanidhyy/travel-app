@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 
 import { SITE_INFO } from "@/constants";
 import Footer from "@/components/Footer";
@@ -29,8 +29,12 @@ export const metadata: Metadata = {
     "html",
     "css",
   ],
-  themeColor: "#30AF5B",
   manifest: "/manifest.json",
+};
+
+// site viewport
+export const viewport: Viewport = {
+  themeColor: "#30AF5B",
 };
 
 // layout

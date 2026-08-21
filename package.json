@@ -4,7 +4,7 @@
   "private": true,
   "author": {
     "name": "Sanidhya Kumar Verma",
-    "email": "sanidhya.verma12345@gmail.com",
+    "email": "sanidhyyy@gmail.com",
     "url": "https://shubam.netlify.app/"
   },
   "description": "Travel UI/UX App for Camping",
@@ -30,7 +30,7 @@
   "homepage": "https://github.com/sanidhyy/travel-app#readme",
   "bugs": {
     "url": "https://github.com/sanidhyy/travel-app/issues",
-    "email": "sanidhya.verma12345@gmail.com"
+    "email": "sanidhyyy@gmail.com"
   },
   "scripts": {
     "dev": "next dev",

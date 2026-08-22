@@ -15,8 +15,8 @@
 
 1. Make sure **Git** and **NodeJS** is installed
 2. Clone this repository to your local computer.
-3. Open terminal in root directory. Run `npm install` or `yarn install`.
-4. Now app is fully configured :+1: and you can start using this app using `npm run dev` or `yarn run dev`.
+3. Open terminal in root directory. Run `npm install` or `bun install`.
+4. Now app is fully configured :+1: and you can start using this app using `npm run dev` or `bun dev`.
 
 ## :camera: Screenshots:
 
@@ -60,9 +60,9 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## :page_with_curl: Deploy on Netlify
 
-The simplest way to deploy your React.js app is to use the [Netlify Platform](https://app.netlify.com/start) - a powerful platform for modern web projects.
+The simplest way to deploy your Next.js app is to use the [Netlify Platform](https://app.netlify.com/start) - a powerful platform for modern web projects.
 
-Explore the [Netlify deployment documentation](https://docs.netlify.com/site-deploys/create-deploys) for step-by-step instructions on deploying your React.js app on Netlify.
+Explore the [Netlify deployment documentation](https://docs.netlify.com/site-deploys/create-deploys) for step-by-step instructions on deploying your Next.js app on Netlify.
 
 Happy coding, and feel free to share your thoughts and improvements with the [Netlify community](https://community.netlify.com)!
 

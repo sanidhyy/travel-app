@@ -7,7 +7,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/sanidhyy/travel-app/commits/main "Maintenance")
 [![GitHub branches](https://badgen.net/github/branches/sanidhyy/travel-app)](https://github.com/sanidhyy/travel-app/branches "GitHub branches")
 [![Github commits](https://badgen.net/github/commits/sanidhyy/travel-app/main)](https://github.com/sanidhyy/travel-app/commits "Github commits")
-[![Vercel status](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://apptravel.vercel.app/ "Vercel status")
+[![Netlify Status](https://api.netlify.com/api/v1/badges/345c4e8e-8be4-4135-8e3d-1a9dd26b3456/deploy-status)](https://app-hilink.netlify.app "Netlify Status")
 [![GitHub issues](https://img.shields.io/github/issues/sanidhyy/travel-app)](https://github.com/sanidhyy/travel-app/issues "GitHub issues")
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/sanidhyy/travel-app)](https://github.com/sanidhyy/travel-app/pulls "GitHub pull requests")
 
@@ -30,11 +30,11 @@
 
 ## :gear: Built with
 
-[![React JS](https://skillicons.dev/icons?i=react "React JS")](https://react.dev/ "React JS") [![Next JS](https://skillicons.dev/icons?i=next "Next JS")](https://nextjs.org/ "Next JS") [![Tailwind CSS](https://skillicons.dev/icons?i=tailwind "Tailwind CSS")](https://tailwindcss.com/ "Tailwind CSS") [![Vercel](https://skillicons.dev/icons?i=vercel "Vercel")](https://vercel.app/ "Vercel")
+[![React JS](https://skillicons.dev/icons?i=react "React JS")](https://react.dev/ "React JS") [![Next JS](https://skillicons.dev/icons?i=next "Next JS")](https://nextjs.org/ "Next JS") [![Tailwind CSS](https://skillicons.dev/icons?i=tailwind "Tailwind CSS")](https://tailwindcss.com/ "Tailwind CSS") [![Netlify](https://skillicons.dev/icons?i=netlify "Netlify")](https://netlify.app/ "Netlify")
 
 ## :wrench: Stats
 
-[![Stats for this App](/.github/images/stats.svg "Stats for this App")](https://pagespeed.web.dev/analysis?url=https://apptravel.vercel.app/ "Stats for this App")
+[![Stats for this App](/.github/images/stats.svg "Stats for this App")](https://pagespeed.web.dev/analysis?url=https://app-hilink.netlify.app "Stats for this App")
 
 ## :raised_hands: Contribute
 
@@ -58,11 +58,13 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## :page_with_curl: Deploy on Vercel
+## :page_with_curl: Deploy on Netlify
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The simplest way to deploy your React.js app is to use the [Netlify Platform](https://app.netlify.com/start) - a powerful platform for modern web projects.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Explore the [Netlify deployment documentation](https://docs.netlify.com/site-deploys/create-deploys) for step-by-step instructions on deploying your React.js app on Netlify.
+
+Happy coding, and feel free to share your thoughts and improvements with the [Netlify community](https://community.netlify.com)!
 
 ## :star: Give A Star
 

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   keywords: [
     "reactjs",
     "nextjs",
-    "vercel",
+    "netlify",
     "react",
     "travel",
     "travel-website",

@@ -33,13 +33,13 @@
     "email": "sanidhyyy@gmail.com"
   },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.5.22",
+    "next": "16.3.2",
     "next-pwa": "^5.6.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"

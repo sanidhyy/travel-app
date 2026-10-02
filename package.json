@@ -39,7 +39,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "16.3.5",
+    "next": "16.3.6",
     "next-pwa": "^5.6.0",
     "react": "^19.3.0",
     "react-dom": "^19.3.0"
